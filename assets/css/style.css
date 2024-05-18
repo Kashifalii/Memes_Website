@@ -606,6 +606,18 @@ header .container .img-wrap img {
     header .navbar {
         background-color: #067a3611 !important;
     }
+
+    .notification {
+        width: fit-content;
+    }
+
+    header .navbar .navbar-collapse {
+        padding: 20px 0 20px 30px;
+    }
+
+    header .navbar .btn {
+        margin-top: 15px;
+    }
 }
 
 /* section-1 */
