@@ -1432,7 +1432,15 @@ footer .third .form-container {
 
 footer .second h4 {
     color: white;
+}
+
+footer .second #para {
+    color: white;
     margin-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    width: 70%;
 }
 
 footer .second ul {
@@ -1449,4 +1457,9 @@ footer .second ul li {
     color: white;
     font-weight: normal;
     cursor: pointer;
+    transition: all ease .3s;
+}
+
+footer .second ul li:hover {
+    color: #37ff1c;
 }
