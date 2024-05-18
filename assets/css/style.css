@@ -602,6 +602,10 @@ header .container .img-wrap img {
         font-size: 55px;
         width: 100%;
     }
+
+    header .navbar {
+        background-color: #067a3611 !important;
+    }
 }
 
 /* section-1 */
@@ -1428,7 +1432,7 @@ footer .third .form-container {
     color: white;
 }
 
-/* THIRD */
+/* second */
 
 footer .second h4 {
     color: white;
@@ -1462,4 +1466,21 @@ footer .second ul li {
 
 footer .second ul li:hover {
     color: #37ff1c;
+}
+
+/* meadia Query */
+@media (max-width: 574.98px) {
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 60px;
+        height: 60px;
+    }
+
+    footer .second {
+        align-items: start !important;
+        text-align: left !important;
+    }
 }
